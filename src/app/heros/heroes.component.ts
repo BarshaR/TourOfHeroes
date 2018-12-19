@@ -4,12 +4,12 @@ import { HEROES } from '../mock-heros';
 import { HeroService } from '../hero.service';
 
 @Component({
-  selector: 'app-heros',
-  templateUrl: './heros.component.html',
-  styleUrls: ['./heros.component.scss']
+  selector: 'app-heroes',
+  templateUrl: './heroes.component.html',
+  styleUrls: ['./heroes.component.scss']
 })
 
-export class HerosComponent implements OnInit {
+export class HeroesComponent implements OnInit {
 
   heroes: Hero[];
   selectedHero: Hero;
